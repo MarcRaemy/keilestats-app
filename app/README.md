@@ -1,12 +1,13 @@
 ﻿# keilestats-app
-This project contains a REST API for Statistics of a just-for-fun ice hockey team. It is build using Spring Boot -
-The simple Webservice is intended to be used by Clients to save and read Game-Statistics of a just-for-fun Ice-Hockey-Team to and from a database.
-To run the Webservice:
+This project contains a REAST-API for saving and reading Statistics of a just-for-fun ice hockey team to a database.
 
-1. Import the project into your IDE / on your machine as a Maven project
-2. All the dependecies and an embeded Tomcat-Webserver should be imported automatically, if not, compile and build the pom.xml-file with Maven again.
-3. At the current development stage, a H2 in Memory Database is used for the persistence layer. It can be accessed via: "http://localhost:8080/h2-console"
-(It is easy to change the persistence layer. To configure the connection to the database, open the "application.properties" file in the source/main/resources folder. There, you must change the url, username, password according to your database credentials. The dependency to the corresponding database has to be set in the pom.xml file)
-4. Launch the application by running the class KeileStatsApplication in folder 
-src/main/java
-5. To test the endpoints of the API, go to http://localhost8080/swagger-ui.html. A Swagger representation of the project should have been generated and be accessible over this address. There, the endpoints are presented and can be tested.
+The project is written with Java Spring Boot using Maven. So you need to have Java SDK v1.6 or higher as well as Spring Boot and Maven installed.
+For instructions: see https://docs.spring.io/spring-boot/docs/1.0.0.RC5/reference/html/getting-started-installing-spring-boot.html .
+
+If the tools are installed succesfully you can run the Webservice as follows:
+
+1. Import the project into your IDE as a Maven project. All the dependecies and an embeded Tomcat-Webserver are imported automatically, if not, compile and build the pom.xml-file with Maven again.
+2. Launch the application by running the class KeileStatsApplication in folder src/main/java/ch.keilestats.app
+3. To see the documentation and use the endpoints, go to http://localhost8080/swagger-ui.html. A Swagger representation of the project should be accessible there.
+4. A H2 in Memory Database is used for the persistence layer in this version. It can be accessed via: "http://localhost:8080/h2-console"
+
