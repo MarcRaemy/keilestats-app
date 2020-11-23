@@ -13,4 +13,4 @@ If the tools are installed succesfully, you can run the Webservice as follows:
 A H2 in Memory Database is used for the persistence layer in this version. It can be accessed via: "http://localhost:8080/h2-console"
 
 The persistence layer can be changed by adding the dependecy to an alternative relational database in the pom.xml file. Go to Maven Repository https://mvnrepository.com/ to copy the dependency to the pom.xml file. Comment out or delete the H2-dependency. Rebuild and compile the project. 
-To configure the connection to the database, open the "application.properties" file in the source/main/resources folder. There, you must change the url, username, password according to your database credentials. 
+To configure the connection to the database, open the "application.properties" file in the source/main/resources folder. There, you must define the url, username, password according to your database credentials. 
