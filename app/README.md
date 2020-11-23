@@ -4,7 +4,7 @@ This project contains a REAST-API for saving and reading Statistics of a just-fo
 The project is written with Java Spring Boot using Maven. So you need to have Java SDK v1.6 or higher as well as Spring Boot and Maven installed.
 For instructions: see https://docs.spring.io/spring-boot/docs/1.0.0.RC5/reference/html/getting-started-installing-spring-boot.html .
 
-If the tools are installed succesfully you can run the Webservice as follows:
+If the tools are installed succesfully, you can run the Webservice as follows:
 
 1. Import the project into your IDE as a Maven project. All the dependecies and an embeded Tomcat-Webserver are imported automatically, if not, compile and build the pom.xml-file with Maven again.
 2. Launch the application by running the class KeileStatsApplication in folder src/main/java/ch.keilestats.app
