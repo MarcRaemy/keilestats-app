@@ -35,7 +35,7 @@ public class SwaggerConfig {
 	private ApiInfo metaInfo() {
 
 		ApiInfo apiInfo = new ApiInfo("Keile Stats API",
-				"API for managing " + "statistics of a just-for-fun Icehockey Team", "1.0", "Terms of Service", "", "",
+				"API for managing " + "statistics of a non-professional icehockey team", "1.0", "Terms of Service", "", "",
 				"");
 
 		return apiInfo;
